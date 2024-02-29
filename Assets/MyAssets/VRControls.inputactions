@@ -1,0 +1,34 @@
+{
+    "name": "VRControls",
+    "maps": [
+        {
+            "name": "RightHand",
+            "id": "57d5f88d-238e-480e-9df4-0f4011d114a2",
+            "actions": [
+                {
+                    "name": "Shoot",
+                    "type": "Button",
+                    "id": "f436a951-30f5-4df1-933b-0cad92235fc7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "40f0e5e3-9a18-4b9d-8c00-fb950ce666ed",
+                    "path": "<XRController>{RightHand}/{TriggerButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
